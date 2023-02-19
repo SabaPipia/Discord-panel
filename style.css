@@ -1,0 +1,246 @@
+/* svg {
+  /* spotify color */
+/* color: #1ea84e; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+  /* font-family: "Rubik", sans-serif; */
+  font-family: "Nunito", sans-serif;
+}
+
+.head {
+  color: #fff;
+}
+.content {
+  color: #bebebe;
+}
+
+.card {
+  border-radius: 5px;
+  margin: 100px;
+  background-color: rgb(51, 51, 52);
+  width: 350px;
+  position: relative;
+  overflow: hidden;
+}
+/* AVATAR SECTION */
+.avatar-pic {
+  box-sizing: content-box;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(15px, -50px);
+  border: 10px solid rgb(51, 51, 52);
+}
+.avatar-section {
+  background-color: rgb(80, 114, 17);
+  padding-top: 60px;
+}
+.avatar-background {
+  background-color: rebeccapurple;
+  height: 40px;
+}
+.btn-icon {
+  position: absolute;
+  border: none;
+  right: 0;
+  top: 0;
+  transform: translate(-15px, 15px);
+  color: #fff;
+  background-color: rgba(30, 29, 29, 0.293);
+  padding: 8px 8px 6px 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.btn-icon:hover,
+.btn-icon:active {
+  background-color: rgba(30, 29, 29, 0.448);
+}
+.avatar-status {
+  box-sizing: content-box;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(7, 131, 7);
+  border-radius: 50%;
+  border: 6px solid rgb(51, 51, 52);
+
+  position: absolute;
+  transform: translate(82px, 22px);
+}
+
+/* CARD INFO */
+.card-info {
+  margin: 80px 10px auto 10px;
+  background-color: rgb(23, 24, 25);
+  border-radius: 11px;
+  padding: 15px;
+}
+.username {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.64);
+  margin-bottom: 10px;
+}
+.user {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.user-tag {
+  color: rgb(174, 174, 174);
+}
+
+/* ABOUT ME */
+.about-me h4 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.about-me-content {
+  margin-bottom: 7px;
+}
+
+/* MEMBER-SINCE*/
+.since-info {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  display: flex;
+  gap: 10px;
+}
+.bi-discord {
+  align-self: center;
+  width: 18px;
+  height: 18px;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  background-color: rgb(67, 67, 67);
+  align-self: center;
+  border-radius: 50%;
+}
+.member-since h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* SPOTIFY-STATUS */
+.spotify-status h4 {
+  text-transform: capitalize;
+}
+.spotify-status {
+  position: relative;
+}
+.status-spotify {
+  position: absolute;
+  right: 0px;
+  top: -3px;
+  color: #1ea84e;
+}
+.spotify-grid {
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 13px;
+  line-height: 1.2;
+}
+.sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.music-pic {
+  box-sizing: content-box;
+  border: 2px solid #fff;
+}
+.listen {
+  margin-top: 20px;
+}
+.listen button {
+  width: 100%;
+  height: 35px;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  color: #9d9d9d;
+  font-weight: 900;
+}
+.listen-spotify {
+  width: 18px;
+  height: 18px;
+  color: #9d9d9d;
+}
+.music-line {
+  margin-top: 8px;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(35, 35, 35);
+  overflow: hidden;
+  border-radius: 30px;
+}
+/* sec28 */
+.fill-line {
+  border-radius: 30px;
+  width: 50px;
+  height: 4px;
+  background-color: #fff;
+}
+.music-time {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+  font-size: 15px;
+}
+
+/* role */
+.section-role {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: inline-block;
+}
+.ball {
+  width: 14px;
+  height: 14px;
+
+  border-radius: 50%;
+  align-self: center;
+}
+.role--1 {
+  background-color: rgb(145, 145, 145);
+}
+.roles {
+  padding: 3px 10px;
+  display: flex;
+  margin-top: 4px;
+  background-color: rgb(55, 54, 54);
+  font-size: 13px;
+  border-radius: 5px;
+}
+.roles p {
+  margin-left: 4px;
+  align-self: center;
+}
+/* note */
+.note h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.note input {
+  background: none;
+  border: none;
+  margin-bottom: 15px;
+  outline: none;
+  padding-left: 5px;
+  color: #9d9d9d;
+}
